@@ -105,18 +105,23 @@ spam{
 .box:first-child{
   margin-left: 0;
 }
-.line{
+
+.line {
   border-bottom: 6px solid #090909;
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
+
 a{
   color:#fd9c00;
 }
-ul{
+
+.check-box {
   list-style-image: url("../img/check.jpg");
+  
 }
-p{
+
+p {
   color: #858585;
   font-size: 13px;
  
@@ -132,7 +137,7 @@ p{
 /****************
       Portfolio
 *****************/
-.binder img + img {
+#binder img + img {
   margin-left: 28px;
 }
 #portfolio{
@@ -162,3 +167,14 @@ p{
 /****************
       Footer
 *****************/
+#footer{
+  background: #e2e2e2;
+  margin: 0;
+  height: 100%;
+  border-top: 60px;
+}
+
+li{
+  display: inline;
+  
+}
