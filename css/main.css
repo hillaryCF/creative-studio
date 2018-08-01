@@ -167,14 +167,28 @@ p {
 /****************
       Footer
 *****************/
+
 #footer{
   background: #e2e2e2;
-  margin: 0;
-  height: 75px;
-  
+}
+.subfooter span{
+  color: #858585;
+  display: block;
+
+}
+.subfooter p{
+  width: 960px;
+  margin: auto;
+  padding: 40px 0px;
+}
+.subfooter p > span{
+  float: left;
+}
+.subfooter img{
+  position: relative;
+  bottom: 15px;
+  float: right;
+  width: 150px;
 }
 
-li{
-  display: inline;
-  
-}
+
